@@ -1,3 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+h1{
+    text-align: center;
+}
+.loguito{
+    width:75px;
+    height: 75px;
+    border-radius: 35px;
+}
+.navegacion{
+    width: auto;
+    margin: auto;
+    background: #febc38;
+}
+.navegacion ul{
+    list-style: none;
+}
+.menu li{
+    position: relative;
+    display: inline-block;
+}
+.menu li a{
+    display: block;
+    padding: 20px 20px;
+    color: #000000;
+    text-decoration: none;
+}
+.submenu{
+    position: absolute;
+    background: #e69900;
+    visibility:hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.submenu li a{
+    display:block;
+    padding: 20px;
+    color:#000000;
+    text-decoration: none;
+    width: 110%;
+}
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity:1;
+
+}
+body{
+    background-color: #fda615;
+}
+ul{
+    padding-left:30px; 
+    
+}
+.motivos ul{
+    list-style-type:lower-roman;
+}
+.press{
+    width: 500px;
+    height:300px;
+}
+.logos_cont{
+    width:50px;
+    height: 50px;
+    border-radius: 25px;
+}
+.titulo{
+    text-align: center;
+    font-size: 35px;
+}
+.subtitulo{
+    text-align: center;
+    font-size: 25px;
+}
+.musculo p{
+    font-size: medium;
+}
+
+.main p{
+    font-size: 20px;
+}
 
 
-/*# sourceMappingURL=styles.css.map */
